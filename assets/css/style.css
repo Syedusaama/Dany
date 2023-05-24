@@ -607,6 +607,20 @@ ul.dropdown li a:hover {
 }
 
 /* accordion */
+.accordian-support-faq>li {
+    list-style: none !important;
+    margin-bottom: 25px;
+    box-shadow: 0 0 10px #ccc;
+}
+.accordian-support-faq h4 {
+    font-size: 22px;
+    /* font-family: "Poppins"; */
+    font-weight: bold;
+    position: relative;
+    padding: 10px 35px 10px 15px;
+    background-color: #fff;
+    cursor: pointer;
+}
 .acc-text{
     background-color: #000000;
     padding: 100px 0px;
