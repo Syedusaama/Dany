@@ -605,9 +605,60 @@ ul.dropdown li a:hover {
 .get-one h2{
     font-size: 130px;
 }
-.get-two img{
-    /* width: 80%; */
+
+/* accordion */
+.acc-text{
+    background-color: #000000;
+    padding: 100px 0px;
 }
+.acc-text h2{
+    font-size: 86px;
+    width: 50%;
+    text-align: center;
+    padding-left: 104px;
+}
+.bg-accordion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.accordion{
+    width: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    overflow: hidden;
+}
+.accordion__label, .accordion__content{
+    padding: 18px 10px;
+}
+.accordion__label{
+    display: block;
+    border-bottom: 1px solid #fff;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    transition: 0.1s;
+}
+.accordion__label:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.accordion__content{
+    background: rgb(173, 173, 173);
+    line-height: 1.6;
+    font-size: 0.85em;
+    display: none;
+}
+
+.accordion__input{
+    display: none;
+}
+.accordion__input:checked ~ .accordion__content{
+    display: block;
+}
+/*  */
+
+
 @media (max-width: 1440px) {}
 
 @media (max-width: 1200px) {
