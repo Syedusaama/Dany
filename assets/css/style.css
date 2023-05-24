@@ -1,13 +1,25 @@
 /*Main Css */
+@font-face {
+    font-family: Gilory;
+    src: url(/assets/fonts/Gilroy-Bold.ttf);
+    src: url(/assets/fonts/Gilroy-Medium.ttf);
+    src: url(/assets/fonts/Gilroy-ExtraBold.ttf);
+ }
+ 
+ * {
+    font-family: Gilory;
+ }
+
+
 h2{
     color: #fff;
     font-size: 55px;
-    font-weight: 800;
+    font-weight: 800 !important;
 }
 p{
     color: #fff;
     font-size: 28px;
-    font-weight: 600;
+    
 }
 ::selection {
     background: #ff5e14;
@@ -471,19 +483,33 @@ ul.dropdown li a:hover {
     align-items: center;
     position: relative;
 }
+.ban-h1{
+    font-size: 105px;
+    font-weight: bold;
+}
+
 .ref-program{
     background-color: #000000;
+    padding: 50px 0px;
 }
 .ref-program h2{
     color: #fff;
+    text-align: center;
+}
+.ref-program p{
+    color: #fff;
+    text-align: center;
 }
 .ref-btn{
-    padding: 15px 25px;
-    border-radius: 26px;
+    padding: 25px 170px;
+    border-radius: 52px;
     background-color: #0084e9;
     color: #fff;
-    font-size: 20px;
+    font-size: 39px;
     font-weight: 600;
+    position: relative;
+    left: 38%;
+    text-transform: uppercase;
 }
 @media (max-width: 1440px) {}
 
