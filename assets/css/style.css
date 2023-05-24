@@ -1,20 +1,24 @@
 /*Main Css */
 @font-face {
     font-family: Gilory;
+  
     src: url(/assets/fonts/Gilroy-Bold.ttf);
     src: url(/assets/fonts/Gilroy-Medium.ttf);
     src: url(/assets/fonts/Gilroy-ExtraBold.ttf);
+
  }
  
  * {
     font-family: Gilory;
+    padding: 0px;
+    margin: 0px;
  }
 
 
 h2{
     color: #fff;
     font-size: 55px;
-    font-weight: 800 !important;
+    font-weight: 800;
 }
 p{
     color: #fff;
@@ -474,7 +478,7 @@ ul.dropdown li a:hover {
 /* Main Banner CSS */
 
 .mainBanner {
-    background-size: cover;
+    background-size: contain;
     background-color: #f8f8f8;
     background-position: center;
     height: 100vh;
@@ -495,10 +499,12 @@ ul.dropdown li a:hover {
 .ref-program h2{
     color: #fff;
     text-align: center;
+    padding-bottom: 25px;
 }
 .ref-program p{
     color: #fff;
     text-align: center;
+    padding-bottom: 25px;
 }
 .ref-btn{
     padding: 25px 170px;
@@ -508,8 +514,56 @@ ul.dropdown li a:hover {
     font-size: 39px;
     font-weight: 600;
     position: relative;
-    left: 38%;
+    left: 37%;
     text-transform: uppercase;
+}
+.work{
+    display: flex;
+    flex-direction: row;
+}
+.ref-work{
+    padding-bottom: 50px;
+}
+.ref-work h3{
+    color: #0084e9;
+    font-size: 30px;
+    text-align: center;
+    padding: 50px 0px;
+}
+.work1{
+    background-color: #0084e9;
+    width: 33%;
+    border-radius: 12px;
+    padding: 30px;
+    margin: 0px 50px;
+}
+.work1 h2{
+    padding-bottom: 30px;
+}
+.work1 p{
+    font-size: 35px;
+}
+.work2{
+    background-color: #2e2e2e;
+    width: 33%;
+    border-radius: 12px;
+    padding: 30px;
+    margin: 0px 50px;
+}
+.work2 h2{
+    padding-bottom: 30px;
+}
+.work2 p{
+    font-size: 35px;
+}
+
+.hash{
+    background-color: #000;
+    padding: 30px 0px;
+}
+.hash h2{
+    color: #0084e9;
+    text-align: center;
 }
 @media (max-width: 1440px) {}
 
