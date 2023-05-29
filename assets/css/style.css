@@ -526,7 +526,10 @@ ul.dropdown li a:hover {
 }
 .work{
     display: flex;
-    flex-direction: row;
+    align-items: center;
+    max-width: 1650px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .ref-work{
     padding-bottom: 50px;
@@ -611,7 +614,7 @@ ul.dropdown li a:hover {
 .accordian-support-faq>li {
     list-style: none !important;
     margin-bottom: 25px;
-    box-shadow: 0 0 10px #ccc;
+    /* box-shadow: 0 0 10px #ccc; */
 }
 .accordian-support-faq h4 {
     font-size: 22px;
@@ -741,3 +744,128 @@ ul.dropdown li a:hover {
 }
 
 @media (max-width: 824px) {}
+
+
+@media (max-width: 767px) {
+    .mainBanner {
+        height: 67vh;
+    }    
+    .first-ban {
+        display: flex;
+        flex-direction: column;
+        height: 67vh;
+    }
+    .ban-h1 {
+        font-size: 68px;
+        text-align: center;
+    }
+    .ref-program {
+        background-color: #000000;
+        padding: 30px 0px 30px 0px;
+    }
+    .ref-program h2 {
+        font-size: 35px;
+    }
+    .ref-program p{
+        font-size: 24px;
+        line-height: 28px;
+        padding-bottom: 25px;
+    }
+    .ref-btn{
+    padding: 25px 45px;
+    border-radius: 52px;
+    background-color: #0084e9;
+    color: #fff;
+    font-size: 30px;
+    left: 23%;
+    }
+    .hash h2 {
+        font-size: 50px;
+    }
+    .work1 {
+        width: 40%;
+    }
+    .work2 {
+        width: 40%;
+    }
+    .aff-flex-body {
+        border: 2px solid #fff;
+        border-radius: 45px;
+        text-align: center;
+        padding: 15px 15px;
+    }
+    .work {
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: center;
+    }
+    .aff-flex img {
+        margin-top: -70px;
+        max-width: 50px;
+    }
+    .work1 h2{
+        font-size: 55px;
+    }
+    .work2 h2{
+        font-size: 55px;
+    }
+    .work1 p {
+        line-height: 27px;
+        font-size: 15px;
+    }
+    .work2 p {
+        line-height: 27px;
+        font-size: 15px;
+    }
+    .get-one h2 {
+        font-size: 39px;
+        margin-right: -52px;
+
+    }
+    .get-one p {
+        font-size: 24px;
+        padding: 20px 0px;
+    }
+    .get-btn {
+        padding: 15px 12px;
+        font-size: 20px;
+        margin-top: 0px;
+    }
+    .get-one {
+        width: 80%;
+        padding-left: 15px;
+    }
+    .get-one p {
+        font-size: 19px;
+        margin-right: -35px;
+        padding: 20px 0px;
+    }
+    .get-btn {
+        padding: 15px 12px;
+        font-size: 14px;
+        margin-top: 36px;
+        margin-right: -35px;
+    }
+    .get-two img {
+        margin-top: -26px;
+        position: relative;
+    }
+    .bg-accordion {
+        padding: 0px 25px;
+    }
+    .accordion {
+        width: 100%;
+    }
+    .earn-desc div:nth-child(2) {
+        padding-left: 25%;
+    }
+    .earn-desc div{
+        padding: 20px 0px;
+    }
+    .earn-cont{
+        padding: 50px 0px;
+    }
+    .earn-head{
+        padding: 0px;
+    }
+}
