@@ -26,7 +26,7 @@ p{
     
 }
 ::selection {
-    background: #ff5e14;
+    background: #0084e9;
     color: #fff;
     text-shadow: none;
 }
@@ -48,7 +48,7 @@ p{
 
 ::-webkit-scrollbar-thumb:vertical {
     border-radius: 10px;
-    background-color: #ff5e14;
+    background-color: #0084e9;
 }
 
 
@@ -478,20 +478,21 @@ ul.dropdown li a:hover {
 /* Main Banner CSS */
 
 .mainBanner {
-    background-size: contain;
+    background-size: cover;
     background-color: #f8f8f8;
     background-position: center;
-    height: 100vh;
     background-repeat: no-repeat;
-    display: flex;
-    align-items: center;
-    position: relative;
 }
 .ban-h1{
     font-size: 105px;
     font-weight: bold;
 }
-
+.first-ban{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
 .ref-program{
     background-color: #000000;
     padding: 70px 50px;
